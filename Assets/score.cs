@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
+using Arcos.Taller;
 
 public class score : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class score : MonoBehaviour
     [SerializeField] UnityEvent invoke1;
     [SerializeField] UnityEvent invoke2;
     [SerializeField] UnityEvent invoke3;
+    [SerializeField] private UIScript userI;
+    [SerializeField] private DataChanger dataToChange;
+
 
 
     public void UpdateScore(int n)
@@ -47,5 +51,14 @@ public class score : MonoBehaviour
             UpdateScore(0);
         }
     }
+    public void UpdateData()
+    {
+        dataToChange.ChangeValue(initialScore);
+    }
 
+    public void AddScoreFromData(float newValue)
+    {
+        initialScore = (int)(newValue);
+
+    }
 }
