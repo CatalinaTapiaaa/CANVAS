@@ -16,6 +16,7 @@ TagManager:
   - BulletPlayer
   - 'Mini '
   - MARICA
+  - base azul
   layers:
   - Default
   - TransparentFX
