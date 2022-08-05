@@ -2290,7 +2290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e4badee43c5ee47b2c41a84f1c0351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: NIVEL 1 FINAL
+  levelToLoad: NIVEL 1
 --- !u!114 &326217258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8209,7 +8209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3762077632703770623, guid: dfb5e75143cf9d441bcf816aa24f3007, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3762077632703770623, guid: dfb5e75143cf9d441bcf816aa24f3007, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10122,7 +10122,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6448844525837038961, guid: bfe91871d0809894b842c0a472a57194, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6448844525837038961, guid: bfe91871d0809894b842c0a472a57194, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11733,7 +11733,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6165697927650942656, guid: 9664a2b50be822943b0944b82a5fbc9d, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6165697927650942656, guid: 9664a2b50be822943b0944b82a5fbc9d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12379,13 +12379,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1898986000574506320, guid: 91de2e38ed8d2094ca70d4541adb8e8d, type: 3}
+      propertyPath: health
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1898986000574506324, guid: 91de2e38ed8d2094ca70d4541adb8e8d, type: 3}
       propertyPath: m_Name
       value: aliado 1
       objectReference: {fileID: 0}
     - target: {fileID: 1898986000574506325, guid: 91de2e38ed8d2094ca70d4541adb8e8d, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1898986000574506325, guid: 91de2e38ed8d2094ca70d4541adb8e8d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12697,7 +12701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e4badee43c5ee47b2c41a84f1c0351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: NIVEL 1 FINAL
+  levelToLoad: NIVEL 1
 --- !u!114 &1509396600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13222,7 +13226,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7089858483844388449, guid: bb36c45024eaa234bb0240daa4601e1a, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7089858483844388449, guid: bb36c45024eaa234bb0240daa4601e1a, type: 3}
       propertyPath: m_LocalPosition.x

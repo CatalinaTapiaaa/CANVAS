@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: totalWaitTime
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 3569402946803127171, guid: 60f35b144d3302648891d016efd30a00, type: 3}
+      propertyPath: healthChange
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 3569402946803127172, guid: 60f35b144d3302648891d016efd30a00, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.6300388
